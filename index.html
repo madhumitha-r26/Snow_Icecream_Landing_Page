@@ -208,17 +208,19 @@
       <p>Send email for your further feedback and queries</p>
   </div>
 
-<form>
+<form action="mailto:snowicecreams@gmail.com" method="post" enctype="text/plain">
 <div class="input-group input-group-lg mx-auto my-3 w-75" id="email">
   <input type="email" class="form-control rounded-0 shadow-none" placeholder="Email Address" aria-label="Email Address"
-      aria-describedby="subscribe">
+    name="email"  aria-describedby="subscribe">
 </div>
 <div class="input-group input-group-lg mx-auto my-3 w-75" id="message">
   <textarea type="text" class="form-control rounded-0 shadow-none" placeholder="Type Your Message Here..." aria-label="Email Address"
-      aria-describedby="subscribe"></textarea>
+    name="message"  aria-describedby="subscribe"></textarea>
 </div>
-  <button type="button" id="subscribe" value="send email">
+  
+<button id="subscribe" value="send email">
   <i class="bi bi-send-fill" style="color: aliceblue;"></i>&nbsp; &nbsp; Send</button> 
+
 </form>
 
 <br><br>
